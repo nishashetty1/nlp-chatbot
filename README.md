@@ -112,4 +112,4 @@ This project is optimized for deployment on Vercel.
    vercel
    ```
 
-Project Link: [https://github.com/nishashetty1/nlp-chatbot](https://nlp-chatbot-pied.vercel.app/)
+Project Link: [nlp-chatbot-pied.vercel.app](https://nlp-chatbot-pied.vercel.app/)
