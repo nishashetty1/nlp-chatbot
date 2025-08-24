@@ -47,6 +47,12 @@
       "question": "How do I get started with NLP?",
       "answer": "To get started with NLP: 1) Learn Python programming, 2) Study NLP basics and linguistics concepts, 3) Experiment with libraries like NLTK or spaCy, 4) Practice with simple projects like text classification or sentiment analysis, 5) Explore advanced topics like word embeddings and transformers, 6) Join NLP communities and keep up with research papers.",
       "keywords": ["beginner", "start", "learn", "getting started", "tutorial"]
+    },
+    {
+      "id": 9,
+      "question": "Hi",
+      "answer": "How may I help you ? You can ask me something related to NLP.",
+      "keywords": ["nlp", "start", "learn", "getting started", "natural language processing"]
     }
   ],
   "fallbackResponses": [
