@@ -1,0 +1,58 @@
+{
+  "faqs": [
+    {
+      "id": 1,
+      "question": "What is Natural Language Processing?",
+      "answer": "Natural Language Processing (NLP) is a field of artificial intelligence that focuses on the interaction between computers and humans through natural language. The ultimate objective of NLP is to enable computers to understand, interpret and generate human language in a way that is both meaningful and useful.",
+      "keywords": ["nlp", "natural language processing", "definition", "what is"]
+    },
+    {
+      "id": 2,
+      "question": "What are the main applications of NLP?",
+      "answer": "NLP has numerous applications including sentiment analysis, chatbots, machine translation, speech recognition, text summarization, named entity recognition, question answering systems, and content recommendation engines.",
+      "keywords": ["applications", "use cases", "examples", "what can", "uses"]
+    },
+    {
+      "id": 3,
+      "question": "What is the difference between NLP and NLU?",
+      "answer": "NLP (Natural Language Processing) is the broader field concerned with the interactions between computers and human language. NLU (Natural Language Understanding) is a subset of NLP that focuses specifically on machine reading comprehension—the ability to derive meaning from text or speech.",
+      "keywords": ["nlu", "difference", "versus", "compare", "understanding"]
+    },
+    {
+      "id": 4,
+      "question": "What are transformers in NLP?",
+      "answer": "Transformers are a type of neural network architecture that has revolutionized NLP. They rely on self-attention mechanisms to process and understand sequential data. Models like BERT, GPT, and T5 are based on transformer architectures and have achieved state-of-the-art results on many NLP tasks.",
+      "keywords": ["transformers", "bert", "gpt", "architecture", "models"]
+    },
+    {
+      "id": 5,
+      "question": "How does sentiment analysis work?",
+      "answer": "Sentiment analysis uses NLP techniques to identify and extract subjective information from text. It typically works by classifying text as positive, negative, or neutral. Modern approaches use machine learning models trained on labeled data, while more advanced systems can detect specific emotions and their intensities.",
+      "keywords": ["sentiment", "analysis", "opinion mining", "emotion", "positive negative"]
+    },
+    {
+      "id": 6,
+      "question": "What programming languages are commonly used for NLP?",
+      "answer": "Python is the most popular language for NLP due to libraries like NLTK, spaCy, Gensim, and Hugging Face's Transformers. R is also used, particularly in academic settings. Java has robust NLP libraries like Stanford CoreNLP and OpenNLP. Other languages include JavaScript (for web-based NLP) and Julia.",
+      "keywords": ["programming", "languages", "python", "code", "development"]
+    },
+    {
+      "id": 7,
+      "question": "What is tokenization in NLP?",
+      "answer": "Tokenization is the process of breaking down text into smaller units called tokens. These tokens can be words, characters, or subwords. Tokenization is typically the first step in many NLP pipelines as it converts text into a format that can be processed by machine learning algorithms.",
+      "keywords": ["tokenization", "tokens", "preprocessing", "words", "split"]
+    },
+    {
+      "id": 8,
+      "question": "How do I get started with NLP?",
+      "answer": "To get started with NLP: 1) Learn Python programming, 2) Study NLP basics and linguistics concepts, 3) Experiment with libraries like NLTK or spaCy, 4) Practice with simple projects like text classification or sentiment analysis, 5) Explore advanced topics like word embeddings and transformers, 6) Join NLP communities and keep up with research papers.",
+      "keywords": ["beginner", "start", "learn", "getting started", "tutorial"]
+    }
+  ],
+  "fallbackResponses": [
+    "I'm sorry, I don't have information about that. Can you try asking a different question?",
+    "I'm not sure I understand. Could you rephrase your question?",
+    "I don't have an answer for that question. Please try asking something else.",
+    "I'm still learning and don't have an answer for that yet. Can I help with something else?"
+  ]
+}
