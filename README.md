@@ -1,70 +1,115 @@
-# Getting Started with Create React App
+# NLP Rule-Based Chatbot
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![GitHub language count](https://img.shields.io/github/languages/count/nishashetty1/nlp-chatbot)
+![GitHub top language](https://img.shields.io/github/languages/top/nishashetty1/nlp-chatbot)
 
-## Available Scripts
+A simple rule-based chatbot built with React that uses natural language processing techniques to match user queries with appropriate responses.
 
-In the project directory, you can run:
+## ✨ Features
 
-### `npm start`
+- 💬 Interactive chat bubble interface with a modern purple theme
+- 🔍 Keyword-based matching system to find relevant answers
+- 🧠 Simple NLP techniques including:
+  - Tokenization
+  - Stopword removal
+  - Basic stemming
+  - String similarity comparison
+- 💡 Suggested questions to guide users
+- 📱 Fully responsive design for all devices
+- ⚡ Optimized for performance
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🖥️ Screenshot
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<img width="1919" height="907" alt="image" src="https://github.com/user-attachments/assets/59d97851-447f-4875-9d71-40883001e5c1" />
+<img width="1919" height="906" alt="image" src="https://github.com/user-attachments/assets/1c7baca3-df37-4702-b1c9-90299f273454" />
+<img width="1919" height="906" alt="image" src="https://github.com/user-attachments/assets/dfba0f56-d0df-491d-90a1-a34b91f4b402" />
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🛠️ Technologies Used
 
-### `npm run build`
+- **React**: Frontend framework
+- **String Similarity**: For comparing text similarity
+- **Font Awesome**: For icons
+- **React Transition Group**: For smooth animations
+- **Custom NLP Logic**: For processing and matching user queries
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🚀 Installation
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/nishashetty1/nlp-chatbot.git
+   cd nlp-chatbot
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-### `npm run eject`
+3. Start the development server:
+   ```bash
+   npm start
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+4. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 📋 Project Structure
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```
+nlp-chatbot/
+├── public/
+│   └── index.html
+├── src/
+│   ├── components/
+│   │   ├── ChatBubble.jsx      # Chat bubble component
+│   │   ├── ChatInterface.jsx   # Main chat interface
+│   │   ├── ChatMessage.jsx     # Individual message component
+│   │   └── SuggestedQuestions.jsx  # Suggested questions component
+│   ├── utils/
+│   │   └── chatLogic.js        # NLP and chat logic
+│   ├── data/
+│   │   └── faqs.json          # FAQ data for responses
+│   ├── styles/
+│   │   ├── ChatBubble.css
+│   │   ├── ChatInterface.css
+│   │   └── global.css
+│   ├── App.jsx                # Main App component
+│   └── index.js               # Entry point
+└── package.json
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 🧠 NLP Implementation Details
 
-## Learn More
+The chatbot uses the following NLP techniques:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1. **Tokenization**: Breaking down user input into individual words
+2. **Stopword Removal**: Filtering out common words that don't add meaning
+3. **Basic Stemming**: Reducing words to their root form
+4. **Keyword Matching**: Matching processed tokens against FAQ keywords
+5. **String Similarity**: Comparing the overall similarity of questions
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+The matching algorithm combines keyword-based scoring with string similarity to find the most relevant response for user queries.
 
-### Code Splitting
+## 🔧 Customization
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+You can customize the chatbot by:
 
-### Analyzing the Bundle Size
+1. Editing the FAQ data in `src/data/faqs.json` to add your own Q&A pairs
+2. Adjusting the similarity threshold in `chatLogic.js` to make matching more or less strict
+3. Modifying the CSS variables in `global.css` to change the color theme
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 🌐 Deployment
 
-### Making a Progressive Web App
+This project is optimized for deployment on Vercel.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+1. Install Vercel CLI:
+   ```bash
+   npm install -g vercel
+   ```
 
-### Advanced Configuration
+2. Deploy:
+   ```bash
+   vercel
+   ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Project Link: [https://github.com/nishashetty1/nlp-chatbot](https://github.com/nishashetty1/nlp-chatbot)
