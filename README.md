@@ -1,8 +1,5 @@
 # NLP Rule-Based Chatbot
 
-![GitHub language count](https://img.shields.io/github/languages/count/nishashetty1/nlp-chatbot)
-![GitHub top language](https://img.shields.io/github/languages/top/nishashetty1/nlp-chatbot)
-
 A simple rule-based chatbot built with React that uses natural language processing techniques to match user queries with appropriate responses.
 
 ## ✨ Features
