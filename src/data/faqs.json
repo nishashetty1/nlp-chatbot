@@ -4,7 +4,7 @@
       "id": 1,
       "question": "What is Natural Language Processing?",
       "answer": "Natural Language Processing (NLP) is a field of artificial intelligence that focuses on the interaction between computers and humans through natural language. The ultimate objective of NLP is to enable computers to understand, interpret and generate human language in a way that is both meaningful and useful.",
-      "keywords": ["nlp", "natural language processing", "definition", "what is"]
+      "keywords": ["nlp", "natural language processing", "definition"]
     },
     {
       "id": 2,
